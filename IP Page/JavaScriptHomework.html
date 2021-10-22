@@ -4,11 +4,47 @@
   <meta charset="utf-8">
   <title>JavaScript program for getting current date</title>
   <script src="JavaCode.js"></script>
+  <script>
+     function Rotate(id)
+       {
+           var el = document.getElementById(id);
+
+           var text = document.getElementById("Rotate");
+
+           text.innerHTML = el.value;
+           var t = text.innerHTML;
+
+           setInterval(function () {
+               t = t[t.length - 1] + t.substring(0, t.length - 1);
+               document.getElementById("Rotate").innerHTML = t;
+           },50 );
+       }
+  </script>
   </head>
 
-  <body>
-   
-  </scrip>
+  <body style="background-color: rgb(57, 161, 144);">
+    <p><br></p>
+    
+    <!--JAVASCRIPT EXERCISE NUMBER 2-->
+    <h2>JavaScript Exercise 2</h2>
+    <a href="JavaScriptHomework2.html" target="_blank"><h4>Calculate the sides of the triangle</h4></a>
+    <br>
+  
+
+    <!--JAVASCRIPT EXERCISE NUMBER 3-->
+    <h2>JavaScript Exercise 3</h2>
+    <h3 style="color:rgb(43, 211, 211)">We begin the rotations!</h3>
+    <br> 
+    <input type="text" name="name" id="ID">
+
+    <input type="button" name="Rotate" value="Rotate" onclick="Rotate('ID')">
+    
+    <p id="Rotate" name="Rotate"></p>
+
+    <br>
+    <!--JAVASCRIPT EXERCISE NUMBER 4-->
+    <h2>JavaScript Exercise 4</h2>
+    <a href="JavaScriptHomework3.html" target="_blank" style="font-size: large;"><h4>Guess the number game!</h4></a>
   </body>
 
   </html>
