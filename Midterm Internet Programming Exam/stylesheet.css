@@ -1,0 +1,75 @@
+body {
+    background-color: lightblue;
+}
+
+    .vl {
+        border-left: 1px solid rgb(0, 0, 0);
+  height: 830px;
+  position:absolute;
+  left: 10%;
+  bottom: -21.5%;
+    }
+   
+img{
+    width: 102%;
+    height: 50%;
+    margin-left: -.5%;
+    margin-top: -1%;
+    margin-bottom: -.5%;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  hr{
+      border-top: 20px;
+      width: 1920px;
+      color:black;
+      margin-left: -.5%;
+      text-align: center;
+  }
+
+  h1 {
+      text-align:center;
+      margin-left: 11.5%;
+      font-size: 40px;
+  }
+
+  h2 {
+    
+    margin-left: 6%;
+}
+
+p{
+    margin-left: 6%
+}
+
+ul {
+    margin-left: 6%
+}
+
+ol {
+    margin-left: 6%
+}
+
+dl {
+    margin-left: 6%
+}
+button{
+    margin-left: 54.3%
+}
+
+input{
+    margin-left: 6%;
+}
+
+label{
+    margin-left: 6%;
+}
+
+.formBox{
+    padding: 0.5rem 2rem;
+}
